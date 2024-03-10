@@ -1,21 +1,21 @@
-import { useState } from "react";
-import emailjs from "emailjs-com";
-import React from "react";
-import { v4 as uuidv4 } from "uuid";
+import { useState } from 'react';
+import emailjs from 'emailjs-com';
+import React from 'react';
+import { v4 as uuidv4 } from 'uuid';
 
 const initialState = {
-  name: "",
-  email: "",
-  confirmEmail: "",
-  ghana_card: "",
-  gender: "",
-  password: "",
-  confirmPassword: "",
-  guardianName: "",
-  profession: "",
+  name: '',
+  email: '',
+  confirmEmail: '',
+  ghana_card: '',
+  gender: '',
+  password: '',
+  confirmPassword: '',
+  guardianName: '',
+  profession: '',
   studentIdFile: null,
   nationalIdFile: null,
-  school: "",
+  school: '',
 };
 
 export const Contact = (props) => {
@@ -43,7 +43,7 @@ export const Contact = (props) => {
     const { name, value, type } = e.target;
 
     // Handle file inputs separately
-    if (type === "file") {
+    if (type === 'file') {
       setState((prevState) => ({ ...prevState, [name]: e.target.files[0] }));
     } else {
       setState((prevState) => ({ ...prevState, [name]: value }));
@@ -73,35 +73,33 @@ export const Contact = (props) => {
       profession,
       studentIdFile,
       nationalIdFile,
-      school
+      school,
     );
 
     // Create a FormData object to append file data
     const formData = new FormData();
-    formData.append("name", name);
-    formData.append("email", email);
-    formData.append("confirmEmail", confirmEmail);
-    formData.append("ghana_card", ghana_card);
-    formData.append("gender", gender);
-    formData.append("password", password);
-    formData.append("confirmPassword", confirmPassword);
-    formData.append("guardianName", guardianName);
-    formData.append("profession", profession);
-    formData.append("studentIdFile", studentIdFile);
-    formData.append("nationalIdFile", nationalIdFile);
-    formData.append("school", school);
+    formData.append('name', name);
+    formData.append('email', email);
+    formData.append('confirmEmail', confirmEmail);
+    formData.append('ghana_card', ghana_card);
+    formData.append('gender', gender);
+    formData.append('password', password);
+    formData.append('confirmPassword', confirmPassword);
+    formData.append('guardianName', guardianName);
+    formData.append('profession', profession);
+    formData.append('studentIdFile', studentIdFile);
+    formData.append('nationalIdFile', nationalIdFile);
+    formData.append('school', school);
 
-    emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", formData, "YOUR_PUBLIC_KEY")
-      .then(
-        (result) => {
-          console.log(result.text);
-          // Don't clear the form immediately, wait for the user to see the unique ID
-        },
-        (error) => {
-          console.log(error.text);
-        }
-      );
+    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', formData, 'YOUR_PUBLIC_KEY').then(
+      (result) => {
+        console.log(result.text);
+        // Don't clear the form immediately, wait for the user to see the unique ID
+      },
+      (error) => {
+        console.log(error.text);
+      },
+    );
   };
 
   return (
@@ -111,10 +109,15 @@ export const Contact = (props) => {
           <div className="col-md-8">
             <div className="row">
               <div className="section-title">
-                <h2>Get In Touch</h2>
+                <h2>BECOME A MEMBER TODAY</h2>
                 <p>
-                  Please fill out the form below to send us an email, and we will
-                  get back to you as soon as possible.
+                  Are you a student in a high school, college or university, a recent graduate or a faculty staff member
+                  looking to stretch your budget further? Look no further! KAMPUSDISCOUNT is here to help you unlock
+                  savings and rewards. KAMPUSDISCOUNT is the number one student discount platform that gives you access
+                  to exciting offers on technology, food and essentials, entertainment, beauty and fashion, travel and
+                  home delivery both online and in-store. With an annual subscription of GHS10, KAMPUSDISCOUNT brings
+                  you all the vouchers, discounts and coupons. Register today and get discounts on all your favourite
+                  brands.
                 </p>
               </div>
               <form name="sentMessage" validate onSubmit={handleSubmit}>
@@ -177,7 +180,7 @@ export const Contact = (props) => {
                         id="gender"
                         name="gender"
                         className="form-control"
-                        placeholder="Gender"
+                        placeholder="Sex"
                         onChange={handleChange}
                       />
                     </div>
@@ -232,11 +235,14 @@ export const Contact = (props) => {
                   </div>
                   <div className="col-md-6">
                     <div className="form-group">
+                      <label for="studentIdFile" className="form-control">
+                        Upload a Copy of Your Students or Faculty ID
+                      </label>
                       <input
                         type="file"
                         id="studentIdFile"
                         name="studentIdFile"
-                        className="form-control"
+                        className="form-control hidden"
                         accept=".jpg, .jpeg, .png, .pdf"
                         onChange={handleChange}
                       />
@@ -244,11 +250,14 @@ export const Contact = (props) => {
                   </div>
                   <div className="col-md-6">
                     <div className="form-group">
+                      <label for="nationalIdFile" className="form-control">
+                        Upload a Copy of Your Ghana Card
+                      </label>
                       <input
                         type="file"
                         id="nationalIdFile"
                         name="nationalIdFile"
-                        className="form-control"
+                        className="form-control hidden"
                         accept=".jpg, .jpeg, .png, .pdf"
                         onChange={handleChange}
                       />
@@ -269,7 +278,9 @@ export const Contact = (props) => {
                 </div>
                 <div className="form-group">
                   <div>
-                  By joining, you have read, understood, and agree to our Terms of Service and Privacy Policy and confirm that you are either a student, faculty staff member, fresh graduate or currently doing your national service
+                    By joining, you have read, understood, and agree to our Terms of Service and Privacy Policy and
+                    confirm that you are either a student, faculty staff member, fresh graduate or currently doing your
+                    national service
                   </div>
                   <button type="submit" className="btn btn-custom btn-lg">
                     Send
@@ -283,26 +294,12 @@ export const Contact = (props) => {
               )}
             </div>
           </div>
-          <div className="col-md-3 col-md-offset-1 contact-info">
-            {/* ... (previous contact information) */}
-          </div>
+          <div className="col-md-3 col-md-offset-1 contact-info">{/* ... (previous contact information) */}</div>
           <div className="col-md-12">
             <div className="row">
-              <div className="social">
-                {/* ... (previous social media links) */}
-              </div>
+              <div className="social">{/* ... (previous social media links) */}</div>
             </div>
           </div>
-        </div>
-      </div>
-      <div id="footer">
-        <div className="container text-center">
-          <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
-              TemplateWire
-            </a>
-          </p>
         </div>
       </div>
     </div>

@@ -6,15 +6,38 @@
   "About": {
     "paragraph": "KAMPUSDISCOUNT is a marketplace created to revolutionize the student experience by becoming the foremost provider of unparalleled savings, rewards, and community engagement opportunities for students, faculty staff members and recent graduates across all educational institutions. We aspire to create a vibrant ecosystem where students, faculty staff members and recent graduates thrive academically, socially, and financially, empowered by the benefits of our platform.",
     "Why": [
-      "Engage Lucrative Demographic",
-      "Catalyst for Brands",
-      "Hub of Innovation",
-      "Community Engagement",
-      "Win-Win Ecosystem"
+      {
+        "title": "Empowerment through Affordability",
+        "text": "We envision a future where our target beneficiaries have access to essential resources and experiences without financial barriers. Through exclusive discounts and rewards, we aim to empower students to pursue their academic goals while enjoying a fulfilling student life."
+      },
+      {
+        "title": "Community Connection",
+        "text": "We envision KampusDiscount as more than just a savings platform; it's a community hub where students come together to share experiences, support each other, and build lasting connections. We strive to foster a sense of belonging and camaraderie among students from diverse backgrounds and disciplines."
+      },
+      {
+        "title": "Innovation and Adaptability",
+        "text": "We envision KampusDiscount as a dynamic and forward-thinking entity that continuously innovates to meet the evolving needs of students and educational institutions. We are committed to leveraging cutting-edge technology and strategic partnerships to deliver innovative solutions and enhance the student experience."
+      },
+      {
+        "title": "Global Impact",
+        "text": "We envision KampusDiscount as a global leader in student-centric services, extending our reach to similar international platforms and educational institutions worldwide. By expanding our presence internationally, we aim to positively impact the lives of students on a global scale, transcending geographical boundaries and cultural differences."
+      },
+      {
+        "title": "Ethical and Responsible Leadership",
+        "text": "We envision KampusDiscount as a beacon of ethical business practices and corporate responsibility. We are dedicated to conducting our operations with integrity, transparency, and social responsibility, ensuring that our actions contribute positively to society and the environment."
+      }
     ],
-    "Why2": [
-      
-    ]
+    "paragraph2": "KAMPUSDISCOUNT seeks to create a transformative platform that empowers students, faculty staff and recent graduates to foster community, drive innovation, promote global engagement, and uphold ethical principles. Together, we are shaping a future where every student can thrive and succeed, both inside and outside the classroom.",
+    "Why2": []
+  },
+  "brand": {
+    "title": "A STUDENT MARKETPLACE FOR THE BRANDS",
+    "p1": "KampusDiscount is a revolutionary marketplace where brands converge to cater to the unique needs of students, empowering both consumers and businesses alike. Our marketplace creates a dynamic ecosystem that fosters collaboration, innovation, and mutual benefit, ultimately transforming the way students engage with brands.",
+    "p2": "TAKE YOUR BRAND TO THE NEXT LEVEL WITH THE KAMPUSDISCOUNT MARKETPLACE",
+    "p3": "With a target of over 8 million students, recent graduates and faculty staff, KampusDiscount serves as a catalyst for brands to engage with the lucrative student demographic in meaningful ways. Through targeted promotions, personalized offers, and strategic marketing initiatives, brands can enhance their visibility, build brand loyalty, and cultivate long-lasting relationships with student consumers.",
+    "p4": "KampusDiscount is a hub of innovation, where brands have the opportunity to experiment with new marketing strategies, product offerings, and customer experiences tailored specifically to the student market. By leveraging data-driven insights and consumer feedback, brands can stay ahead of the curve and continuously adapt to meet the evolving needs and preferences of students.",
+    "p5": "BOOST BRAND ENGAGEMENTS",
+    "p6": "KampusDiscount is more than just a marketplace; it's a thriving community where brands and students come together to connect, collaborate, and share experiences through interactive features, social media integration, and exclusive events creating valuable networking opportunities and fostering brand advocacy. KampusDiscount as a marketplace for brands is to create a win-win ecosystem where brands have the opportunity to engage with a highly coveted consumer demographic while providing students with access to affordable products, enriching experiences, and a vibrant community. Together, we are shaping the future of brand-consumer relationships and empowering the next generation of students to succeed."
   },
   "Services": [
     {
