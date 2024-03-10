@@ -18,7 +18,7 @@ const initialState = {
   school: '',
 };
 
-export const Contact = (props) => {
+export const Member = (props) => {
   const [
     {
       name,
@@ -104,7 +104,7 @@ export const Contact = (props) => {
 
   return (
     <div>
-      <div id="contact">
+      <div id="member">
         <div className="container">
           <div className="col-md-8">
             <div className="row">

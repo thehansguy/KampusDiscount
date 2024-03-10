@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 export const Navigation = (props) => {
   return (
@@ -11,41 +11,36 @@ export const Navigation = (props) => {
             data-toggle="collapse"
             data-target="#bs-example-navbar-collapse-1"
           >
-            {" "}
-            <span className="sr-only">Toggle navigation</span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
+            {' '}
+            <span className="sr-only">Toggle navigation</span> <span className="icon-bar"></span>{' '}
+            <span className="icon-bar"></span> <span className="icon-bar"></span>{' '}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
             KAMPUS DISCOUNT
-          </a>{" "}
+          </a>{' '}
         </div>
 
-        <div
-          className="collapse navbar-collapse"
-          id="bs-example-navbar-collapse-1"
-        >
+        <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul className="nav navbar-nav navbar-right">
-            <li>
+            {/* <li>
               <a href="#features" className="page-scroll">
                 Features
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="#about" className="page-scroll">
-                About
+                About Us
               </a>
             </li>
             <li>
-              <a href="#services" className="page-scroll">
-                Services
+              <a href="#member" className="page-scroll">
+                Become a member
               </a>
             </li>
             <li>
-              {/* <a href="#testimonials" className="page-scroll"> */}
-                {/* Testimonials */}
-              {/* </a> */}
+              <a href="#offers" className="page-scroll">
+                Offers
+              </a>
             </li>
             <li>
               {/* <a href="#team" className="page-scroll">
@@ -54,7 +49,7 @@ export const Navigation = (props) => {
             </li>
             <li>
               <a href="#contact" className="page-scroll">
-                Contact
+                Contact Us
               </a>
             </li>
           </ul>

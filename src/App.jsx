@@ -9,7 +9,7 @@ import { Services } from './components/services';
 //import { Gallery } from "./components/gallery";
 //import { Testimonials } from "./components/testimonials";
 //import { Team } from "./components/Team";
-import { Contact } from './components/contact';
+import { Contact, Member } from './components/member';
 import JsonData from './data/data.json';
 import SmoothScroll from 'smooth-scroll';
 import './App.css';
@@ -30,14 +30,14 @@ const App = () => {
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
-      <Features data={landingPageData.Features} />
+      {/* <Features data={landingPageData.Features} /> */}
       <About data={landingPageData.About} />
+      <Member data={landingPageData.Contact} />
       <Brand data={landingPageData.brand} />
-      <Services data={landingPageData.Services} />
+      {/* <Services data={landingPageData.Services} /> */}
       {/* <Testimonials data={landingPageData.Testimonials} /> */}
       {/* <Team data={landingPageData.Team} /> */}
-      <Contact data={landingPageData.Contact} />
-      <Offer data={landingPageData} />
+      <Offer />
       <Footer />
     </div>
   );
