@@ -1,0 +1,140 @@
+{
+  "Header": {
+    "title": "We are Kampus-discount",
+    "paragraph": "Empowering Education, Enriching Lives: KAMPUSDISCOUNT, where savings, rewards, and community converge to elevate the student journey."
+  },
+  "About": {
+    "paragraph": "KAMPUSDISCOUNT is a marketplace created to revolutionize the student experience by becoming the foremost provider of unparalleled savings, rewards, and community engagement opportunities for students, faculty staff members and recent graduates across all educational institutions. We aspire to create a vibrant ecosystem where students, faculty staff members and recent graduates thrive academically, socially, and financially, empowered by the benefits of our platform.",
+    "Why": [
+      "Engage Lucrative Demographic",
+      "Catalyst for Brands",
+      "Hub of Innovation",
+      "Community Engagement",
+      "Win-Win Ecosystem"
+    ],
+    "Why2": [
+      
+    ]
+  },
+  "Services": [
+    {
+      "icon": "fa fa-wordpress",
+      "name": "Lorem ipsum dolor",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "name": "Lorem ipsum dolor",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-language",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-plane",
+      "name": "Lorem ipsum dolor",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "John Doe",
+      "job": "Director"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Mike Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Jane Doe",
+      "job": "Senior Designer"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Karen Doe",
+      "job": "Project Manager"
+    }
+  ],
+  "Contact": {
+    "address": "4321 California St, San Francisco, CA 12345 ",
+    "phone": "+1 123 456 1234",
+    "email": "info@company.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Empowerment through Affordability",
+      "text": "We aim to empower students by removing financial barriers through exclusive discounts and rewards, fostering a fulfilling academic and student life experience."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Community Connection",
+      "text": "KampusDiscount is more than a savings platform; it's a community hub fostering student connections and support. We aim to build lasting camaraderie among diverse students for a sense of belonging"
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Innovation and Adaptability",
+      "text": "KampusDiscount is committed to dynamic innovation, utilizing cutting-edge technology and strategic partnerships to meet evolving needs in student and educational experiences."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Global Impact",
+      "text": "KampusDiscount envisions global leadership in student-centric services, transcending boundaries and cultural differences to positively impact lives on an international scale"
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Ethical and Responsible Leadership",
+      "text": "KampusDiscount aspires to be a beacon of ethical business, dedicated to transparency and social responsibility, ensuring positive contributions to both society and the environment"
+    }
+  ]
+}
